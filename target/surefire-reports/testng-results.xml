@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="11" passed="6" failed="2" skipped="0">
+<testng-results ignored="3" total="11" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-12T12:43:00 IST" name="Suite" finished-at="2023-04-12T12:43:17 IST" duration-ms="16502">
+  <suite started-at="2023-04-12T13:15:23 IST" name="Suite" finished-at="2023-04-12T13:15:40 IST" duration-ms="16348">
     <groups>
     </groups>
-    <test started-at="2023-04-12T12:43:00 IST" name="Test" finished-at="2023-04-12T12:43:17 IST" duration-ms="16502">
+    <test started-at="2023-04-12T13:15:23 IST" name="Test" finished-at="2023-04-12T13:15:40 IST" duration-ms="16348">
       <class name="tests.TestDELETE">
-        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T12:43:12 IST" name="setUPRequest" finished-at="2023-04-12T12:43:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUPRequest -->
-        <test-method signature="pingRequest()[pri:110, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T12:43:12 IST" name="pingRequest" finished-at="2023-04-12T12:43:14 IST" duration-ms="1430" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pingRequest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T12:43:12 IST" name="setupTest" finished-at="2023-04-12T12:43:12 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T13:15:36 IST" name="setupTest" finished-at="2023-04-12T13:15:36 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T12:43:12 IST" name="startTest" finished-at="2023-04-12T12:43:12 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T13:15:36 IST" name="setUPRequest" finished-at="2023-04-12T13:15:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPRequest -->
+        <test-method signature="pingRequest()[pri:110, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T13:15:36 IST" name="pingRequest" finished-at="2023-04-12T13:15:37 IST" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pingRequest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T13:15:36 IST" name="startTest" finished-at="2023-04-12T13:15:36 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T12:43:14 IST" name="reportFlush" finished-at="2023-04-12T12:43:14 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T13:15:37 IST" name="reportFlush" finished-at="2023-04-12T13:15:37 IST" duration-ms="25" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportFlush -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T12:43:14 IST" name="startTest" finished-at="2023-04-12T12:43:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T13:15:37 IST" name="startTest" finished-at="2023-04-12T13:15:37 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,15 +52,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="deleteReq()[pri:510, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T12:43:14 IST" name="deleteReq" finished-at="2023-04-12T12:43:17 IST" duration-ms="2844" status="PASS">
+        <test-method signature="deleteReq()[pri:510, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T13:15:37 IST" name="deleteReq" finished-at="2023-04-12T13:15:40 IST" duration-ms="2802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteReq -->
-        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T12:43:14 IST" name="setUPRequest" finished-at="2023-04-12T12:43:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T13:15:37 IST" name="setUPRequest" finished-at="2023-04-12T13:15:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUPRequest -->
-        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T12:43:17 IST" name="reportFlush" finished-at="2023-04-12T12:43:17 IST" duration-ms="40" status="PASS">
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestDELETE@5ddeb7cb]" started-at="2023-04-12T13:15:40 IST" name="reportFlush" finished-at="2023-04-12T13:15:40 IST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,19 +73,7 @@
         </test-method> <!-- reportFlush -->
       </class> <!-- tests.TestDELETE -->
       <class name="tests.TestPOST">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T12:43:05 IST" name="setupTest" finished-at="2023-04-12T12:43:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T12:43:05 IST" name="setUPRequest" finished-at="2023-04-12T12:43:05 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUPRequest -->
-        <test-method signature="pingRequest()[pri:201, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T12:43:05 IST" name="pingRequest" finished-at="2023-04-12T12:43:06 IST" duration-ms="1384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pingRequest -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T12:43:05 IST" name="startTest" finished-at="2023-04-12T12:43:05 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T13:15:28 IST" name="startTest" finished-at="2023-04-12T13:15:28 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,7 +84,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T12:43:06 IST" name="reportFlush" finished-at="2023-04-12T12:43:06 IST" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T13:15:28 IST" name="setupTest" finished-at="2023-04-12T13:15:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T13:15:28 IST" name="setUPRequest" finished-at="2023-04-12T13:15:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPRequest -->
+        <test-method signature="pingRequest()[pri:201, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T13:15:28 IST" name="pingRequest" finished-at="2023-04-12T13:15:29 IST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pingRequest -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T13:15:29 IST" name="reportFlush" finished-at="2023-04-12T13:15:29 IST" duration-ms="24" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,7 +107,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportFlush -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T12:43:06 IST" name="startTest" finished-at="2023-04-12T12:43:06 IST" duration-ms="1" status="PASS">
+        <test-method signature="postReq()[pri:501, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T13:15:29 IST" name="postReq" finished-at="2023-04-12T13:15:31 IST" duration-ms="1933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postReq -->
+        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T13:15:29 IST" name="setUPRequest" finished-at="2023-04-12T13:15:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPRequest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T13:15:29 IST" name="startTest" finished-at="2023-04-12T13:15:29 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,15 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="postReq()[pri:501, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T12:43:06 IST" name="postReq" finished-at="2023-04-12T12:43:08 IST" duration-ms="1851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postReq -->
-        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T12:43:06 IST" name="setUPRequest" finished-at="2023-04-12T12:43:06 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUPRequest -->
-        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T12:43:08 IST" name="reportFlush" finished-at="2023-04-12T12:43:08 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestPOST@8462f31]" started-at="2023-04-12T13:15:31 IST" name="reportFlush" finished-at="2023-04-12T13:15:31 IST" duration-ms="33" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,130 +138,16 @@
           </reporter-output>
         </test-method> <!-- reportFlush -->
       </class> <!-- tests.TestPOST -->
-      <class name="tests.TestPUT">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T12:43:08 IST" name="setupTest" finished-at="2023-04-12T12:43:08 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T12:43:08 IST" name="startTest" finished-at="2023-04-12T12:43:08 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.TestPUT.pingRequest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T12:43:08 IST" name="setUPRequest" finished-at="2023-04-12T12:43:08 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUPRequest -->
-        <test-method signature="pingRequest()[pri:201, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T12:43:08 IST" name="pingRequest" finished-at="2023-04-12T12:43:09 IST" duration-ms="1420" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pingRequest -->
-        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T12:43:09 IST" name="reportFlush" finished-at="2023-04-12T12:43:09 IST" duration-ms="18" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=pingRequest status=SUCCESS method=TestPUT.pingRequest()[pri:201, instance:tests.TestPUT@24569dba] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportFlush -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T12:43:09 IST" name="startTest" finished-at="2023-04-12T12:43:09 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.TestPUT.putReq()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T12:43:09 IST" name="setUPRequest" finished-at="2023-04-12T12:43:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUPRequest -->
-        <test-method signature="putReq()[pri:501, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T12:43:09 IST" name="putReq" finished-at="2023-04-12T12:43:12 IST" duration-ms="2868" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [200] but found [405]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found [405]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1240)
-at org.testng.Assert.assertEquals(Assert.java:1274)
-at tests.TestPUT.putReq(TestPUT.java:57)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- putReq -->
-        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T12:43:12 IST" name="reportFlush" finished-at="2023-04-12T12:43:12 IST" duration-ms="25" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=putReq status=FAILURE method=TestPUT.putReq()[pri:501, instance:tests.TestPUT@24569dba] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportFlush -->
-      </class> <!-- tests.TestPUT -->
       <class name="tests.TestGET">
-        <test-method is-config="true" signature="init()[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T12:43:00 IST" name="init" finished-at="2023-04-12T12:43:00 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T13:15:23 IST" name="init" finished-at="2023-04-12T13:15:23 IST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T12:43:00 IST" name="setupTest" finished-at="2023-04-12T12:43:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T13:15:23 IST" name="setupTest" finished-at="2023-04-12T13:15:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T12:43:00 IST" name="startTest" finished-at="2023-04-12T12:43:01 IST" duration-ms="526" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T13:15:23 IST" name="startTest" finished-at="2023-04-12T13:15:24 IST" duration-ms="422" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -272,15 +158,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T12:43:01 IST" name="setUPRequest" finished-at="2023-04-12T12:43:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T13:15:24 IST" name="setUPRequest" finished-at="2023-04-12T13:15:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUPRequest -->
-        <test-method signature="pingRequest()[pri:201, instance:tests.TestGET@402c4085]" started-at="2023-04-12T12:43:01 IST" name="pingRequest" finished-at="2023-04-12T12:43:03 IST" duration-ms="2371" status="PASS">
+        <test-method signature="pingRequest()[pri:201, instance:tests.TestGET@402c4085]" started-at="2023-04-12T13:15:24 IST" name="pingRequest" finished-at="2023-04-12T13:15:26 IST" duration-ms="2267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pingRequest -->
-        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T12:43:03 IST" name="reportFlush" finished-at="2023-04-12T12:43:03 IST" duration-ms="161" status="PASS">
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T13:15:26 IST" name="reportFlush" finished-at="2023-04-12T13:15:26 IST" duration-ms="191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,7 +177,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportFlush -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T12:43:03 IST" name="startTest" finished-at="2023-04-12T12:43:03 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T13:15:26 IST" name="startTest" finished-at="2023-04-12T13:15:26 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -302,67 +188,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="getReq()[pri:501, instance:tests.TestGET@402c4085]" started-at="2023-04-12T12:43:03 IST" name="getReq" finished-at="2023-04-12T12:43:05 IST" duration-ms="1405" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [200] but found [404]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1240)
-at org.testng.Assert.assertEquals(Assert.java:1274)
-at tests.TestGET.getReq(TestGET.java:59)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getReq -->
-        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T12:43:03 IST" name="setUPRequest" finished-at="2023-04-12T12:43:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T13:15:26 IST" name="setUPRequest" finished-at="2023-04-12T13:15:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUPRequest -->
-        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T12:43:05 IST" name="reportFlush" finished-at="2023-04-12T12:43:05 IST" duration-ms="26" status="PASS">
+        <test-method signature="getReq()[pri:501, instance:tests.TestGET@402c4085]" started-at="2023-04-12T13:15:26 IST" name="getReq" finished-at="2023-04-12T13:15:28 IST" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReq -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestGET@402c4085]" started-at="2023-04-12T13:15:28 IST" name="reportFlush" finished-at="2023-04-12T13:15:28 IST" duration-ms="42" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getReq status=FAILURE method=TestGET.getReq()[pri:501, instance:tests.TestGET@402c4085] output={null}]]]>
+                <![CDATA[[TestResult name=getReq status=SUCCESS method=TestGET.getReq()[pri:501, instance:tests.TestGET@402c4085] output={null}]]]>
               </value>
             </param>
           </params>
@@ -370,6 +208,72 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </reporter-output>
         </test-method> <!-- reportFlush -->
       </class> <!-- tests.TestGET -->
+      <class name="tests.TestPUT">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T13:15:31 IST" name="setupTest" finished-at="2023-04-12T13:15:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T13:15:31 IST" name="startTest" finished-at="2023-04-12T13:15:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestPUT.pingRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="pingRequest()[pri:201, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T13:15:31 IST" name="pingRequest" finished-at="2023-04-12T13:15:33 IST" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pingRequest -->
+        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T13:15:31 IST" name="setUPRequest" finished-at="2023-04-12T13:15:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPRequest -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T13:15:33 IST" name="reportFlush" finished-at="2023-04-12T13:15:33 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pingRequest status=SUCCESS method=TestPUT.pingRequest()[pri:201, instance:tests.TestPUT@24569dba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+        <test-method is-config="true" signature="setUPRequest()[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T13:15:33 IST" name="setUPRequest" finished-at="2023-04-12T13:15:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPRequest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T13:15:33 IST" name="startTest" finished-at="2023-04-12T13:15:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestPUT.putReq()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="putReq()[pri:501, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T13:15:33 IST" name="putReq" finished-at="2023-04-12T13:15:36 IST" duration-ms="2773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putReq -->
+        <test-method is-config="true" signature="reportFlush(org.testng.ITestResult)[pri:0, instance:tests.TestPUT@24569dba]" started-at="2023-04-12T13:15:36 IST" name="reportFlush" finished-at="2023-04-12T13:15:36 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=putReq status=SUCCESS method=TestPUT.putReq()[pri:501, instance:tests.TestPUT@24569dba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- tests.TestPUT -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

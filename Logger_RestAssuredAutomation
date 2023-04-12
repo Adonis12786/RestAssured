@@ -1,2 +1,4 @@
-2023-04-12 12:04:459 INFO  Log4j:58 -Succesfully invoke post method
-2023-04-12 12:04:149 INFO  Log4j:52 -Succesfully invoke delete method
+2023-04-12 13:04:356 INFO  Log4j:61 -Succesfully invoke get method
+2023-04-12 13:04:794 INFO  Log4j:58 -Succesfully invoke post method
+2023-04-12 13:04:66 INFO  Log4j:58 -Succesfully invoke put method
+2023-04-12 13:04:303 INFO  Log4j:52 -Succesfully invoke delete method

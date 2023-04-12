@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,26 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.TestGET" class="method navigator-link" hash-for-method="getReq">getReq</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.TestPUT" class="method navigator-link" hash-for-method="putReq">putReq</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -128,7 +109,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.TestDELETE" class="method navigator-link" hash-for-method="pingRequest">pingRequest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.TestGET" class="method navigator-link" hash-for-method="getReq">getReq</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,7 +119,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.TestPOST" class="method navigator-link" hash-for-method="pingRequest">pingRequest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.TestDELETE" class="method navigator-link" hash-for-method="pingRequest">pingRequest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -148,7 +129,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TestPOST" class="method navigator-link" hash-for-method="pingRequest">pingRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="tests.TestPOST" class="method navigator-link" hash-for-method="postReq">postReq</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TestPUT" class="method navigator-link" hash-for-method="putReq">putReq</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -163,46 +154,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.TestPUT</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="putReq">
-                  </a> <!-- putReq -->
-                  <span class="method-name">putReq</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [405]
-	at tests.TestPUT.putReq(TestPUT.java:57)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.TestGET</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getReq">
-                  </a> <!-- getReq -->
-                  <span class="method-name">getReq</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
-	at tests.TestGET.getReq(TestGET.java:59)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -214,6 +165,13 @@
                   <a name="pingRequest">
                   </a> <!-- pingRequest -->
                   <span class="method-name">pingRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putReq">
+                  </a> <!-- putReq -->
+                  <span class="method-name">putReq</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -246,6 +204,13 @@
               <span class="class-name">tests.TestGET</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getReq">
+                  </a> <!-- getReq -->
+                  <span class="method-name">getReq</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="pingRequest">
@@ -334,37 +299,37 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'putReq')
-data.setCell(0, 2, 'tests.TestPUT')
-data.setCell(0, 3, 2868);
+data.setCell(0, 1, 'deleteReq')
+data.setCell(0, 2, 'tests.TestDELETE')
+data.setCell(0, 3, 2802);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'deleteReq')
-data.setCell(1, 2, 'tests.TestDELETE')
-data.setCell(1, 3, 2844);
+data.setCell(1, 1, 'putReq')
+data.setCell(1, 2, 'tests.TestPUT')
+data.setCell(1, 3, 2773);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'pingRequest')
 data.setCell(2, 2, 'tests.TestGET')
-data.setCell(2, 3, 2371);
+data.setCell(2, 3, 2267);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'postReq')
 data.setCell(3, 2, 'tests.TestPOST')
-data.setCell(3, 3, 1851);
+data.setCell(3, 3, 1933);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'pingRequest')
-data.setCell(4, 2, 'tests.TestDELETE')
-data.setCell(4, 3, 1430);
+data.setCell(4, 1, 'getReq')
+data.setCell(4, 2, 'tests.TestGET')
+data.setCell(4, 3, 1527);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'pingRequest')
 data.setCell(5, 2, 'tests.TestPUT')
-data.setCell(5, 3, 1420);
+data.setCell(5, 3, 1429);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'getReq')
-data.setCell(6, 2, 'tests.TestGET')
-data.setCell(6, 3, 1405);
+data.setCell(6, 1, 'pingRequest')
+data.setCell(6, 2, 'tests.TestDELETE')
+data.setCell(6, 3, 1382);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'pingRequest')
 data.setCell(7, 2, 'tests.TestPOST')
-data.setCell(7, 3, 1384);
+data.setCell(7, 3, 1377);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -423,160 +388,156 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setupTest</span>
-                <span class="method-start">146 ms</span>
+                <span class="method-start">119 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">startTest(public void tests.TestGET.pingRequest())</span>
-                <span class="method-start">156 ms</span>
+                <span class="method-start">129 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUPRequest</span>
-                <span class="method-start">683 ms</span>
+                <span class="method-start">552 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">pingRequest</span>
-                <span class="method-start">684 ms</span>
+                <span class="method-start">553 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">reportFlush([TestResult name=pingRequest status=SUCCESS method=TestGET.pingRequest()[pri:201, instance:tests.Tes...)</span>
-                <span class="method-start">3057 ms</span>
+                <span class="method-start">2821 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTest(public void tests.TestGET.getReq() throws java.lang.Exception)</span>
-                <span class="method-start">3220 ms</span>
+                <span class="method-start">3018 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">getReq</span>
-                <span class="method-start">3221 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUPRequest</span>
-                <span class="method-start">3221 ms</span>
+                <span class="method-start">3020 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getReq</span>
+                <span class="method-start">3021 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">reportFlush([TestResult name=getReq status=FAILURE method=TestGET.getReq()[pri:501, instance:tests.TestGET@402c4...)</span>
-                <span class="method-start">4629 ms</span>
+                <span class="method-name">reportFlush([TestResult name=getReq status=SUCCESS method=TestGET.getReq()[pri:501, instance:tests.TestGET@402c4...)</span>
+                <span class="method-start">4548 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestPOST</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void tests.TestPOST.pingRequest())</span>
+                <span class="method-start">4591 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-class before">
                 <span class="method-name">setupTest</span>
-                <span class="method-start">4655 ms</span>
+                <span class="method-start">4591 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUPRequest</span>
-                <span class="method-start">4657 ms</span>
+                <span class="method-start">4592 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">pingRequest</span>
-                <span class="method-start">4657 ms</span>
+                <span class="method-start">4592 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">startTest(public void tests.TestPOST.pingRequest())</span>
-                <span class="method-start">4657 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">reportFlush([TestResult name=pingRequest status=SUCCESS method=TestPOST.pingRequest()[pri:201, instance:tests.Te...)</span>
-                <span class="method-start">6041 ms</span>
+                <span class="method-start">5969 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">startTest(public void tests.TestPOST.postReq() throws java.lang.Exception)</span>
-                <span class="method-start">6072 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">postReq</span>
-                <span class="method-start">6073 ms</span>
+                <span class="method-start">5995 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUPRequest</span>
-                <span class="method-start">6073 ms</span>
+                <span class="method-start">5995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void tests.TestPOST.postReq() throws java.lang.Exception)</span>
+                <span class="method-start">5995 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">reportFlush([TestResult name=postReq status=SUCCESS method=TestPOST.postReq()[pri:501, instance:tests.TestPOST@8...)</span>
-                <span class="method-start">7925 ms</span>
+                <span class="method-start">7928 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestPUT</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupTest</span>
-                <span class="method-start">7956 ms</span>
+                <span class="method-start">7962 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">startTest(public void tests.TestPUT.pingRequest())</span>
-                <span class="method-start">7956 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUPRequest</span>
-                <span class="method-start">7956 ms</span>
+                <span class="method-start">7964 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">pingRequest</span>
-                <span class="method-start">7957 ms</span>
+                <span class="method-start">7965 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">reportFlush([TestResult name=pingRequest status=SUCCESS method=TestPUT.pingRequest()[pri:201, instance:tests.Tes...)</span>
-                <span class="method-start">9378 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">startTest(public void tests.TestPUT.putReq())</span>
-                <span class="method-start">9396 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUPRequest</span>
-                <span class="method-start">9397 ms</span>
+                <span class="method-start">7965 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">reportFlush([TestResult name=pingRequest status=SUCCESS method=TestPUT.pingRequest()[pri:201, instance:tests.Tes...)</span>
+                <span class="method-start">9394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUPRequest</span>
+                <span class="method-start">9423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void tests.TestPUT.putReq())</span>
+                <span class="method-start">9423 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">putReq</span>
-                <span class="method-start">9397 ms</span>
+                <span class="method-start">9424 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">reportFlush([TestResult name=putReq status=FAILURE method=TestPUT.putReq()[pri:501, instance:tests.TestPUT@24569...)</span>
-                <span class="method-start">12266 ms</span>
+                <span class="method-name">reportFlush([TestResult name=putReq status=SUCCESS method=TestPUT.putReq()[pri:501, instance:tests.TestPUT@24569...)</span>
+                <span class="method-start">12197 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestDELETE</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">12223 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUPRequest</span>
-                <span class="method-start">12292 ms</span>
+                <span class="method-start">12224 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">pingRequest</span>
-                <span class="method-start">12292 ms</span>
+                <span class="method-start">12224 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class before">
-                <span class="method-name">setupTest</span>
-                <span class="method-start">12292 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">startTest(public void tests.TestDELETE.pingRequest())</span>
-                <span class="method-start">12292 ms</span>
+                <span class="method-start">12224 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">reportFlush([TestResult name=pingRequest status=SUCCESS method=TestDELETE.pingRequest()[pri:110, instance:tests....)</span>
-                <span class="method-start">13722 ms</span>
+                <span class="method-start">13607 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startTest(public void tests.TestDELETE.deleteReq())</span>
-                <span class="method-start">13745 ms</span>
+                <span class="method-start">13632 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">deleteReq</span>
-                <span class="method-start">13745 ms</span>
+                <span class="method-start">13633 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUPRequest</span>
-                <span class="method-start">13745 ms</span>
+                <span class="method-start">13633 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">reportFlush([TestResult name=deleteReq status=SUCCESS method=TestDELETE.deleteReq()[pri:510, instance:tests.Test...)</span>
-                <span class="method-start">16589 ms</span>
+                <span class="method-start">16436 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
