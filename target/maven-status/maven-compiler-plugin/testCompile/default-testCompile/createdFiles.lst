@@ -1,0 +1,5 @@
+tests\TestGET.class
+tests\TestPUT.class
+baseClass\BasePage.class
+tests\TestDELETE.class
+tests\TestPOST.class

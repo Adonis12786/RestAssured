@@ -1,0 +1,8 @@
+DeserializingPojo\BookingdatesPojo.class
+Utilities\RestClientWrapper.class
+Utilities\Utils.class
+DeserializingPojo\GetBookingPojo.class
+Utilities\ExtentManager.class
+Utilities\Resources.class
+LoggerImplement\Log4j.class
+Utilities\ReadingPropertiesFile.class
