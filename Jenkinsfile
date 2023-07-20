@@ -1,8 +1,11 @@
 pipeline {
     agent any
-    tools { 
-        maven 'Maven 3.3.9'
+        environment{
+            notifyEmail = "adnankhan.bsur@gmail.com"
         }
+    tools { 
+        maven 'MAVEN_HOME'
+    }
     stages {
         stage ('Initialize') {
             steps {
