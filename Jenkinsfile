@@ -1,23 +1,21 @@
 pipeline {
-        agent any
-        environment {
-                notifyEmail = "adnankhan.bsur@gmail.com"
-        }
-        tools {
-                maven 'MAVEN_HOME'
-        }
-        stages {
-                stage('Initialize') {
-                        steps {
-                                bat "mvn clean test"
-                        }
-                }
+    agent any
+    tools {
+        maven 'MAVEN_HOME' 
+    }
 
-                stage('Build') {
-                        steps {
-                                echo 'This is a minimal pipeline.'
-                        }
+ 
+
+    stages {
+        stage('Example') {
+            steps {
+
+                withMaven(maven: 'MAVEN_HOME') {
+
+                    bat 'mvn clean test'
                 }
+            }
         }
+    }
 }
 
