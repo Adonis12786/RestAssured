@@ -4,7 +4,7 @@ pipeline {
                 notifyEmail = "adnankhan.bsur@gmail.com"
         }
         tools {
-                maven 'maven_home'
+                maven 'MAVEN_HOME'
         }
         stages {
                 stage('Initialize') {
